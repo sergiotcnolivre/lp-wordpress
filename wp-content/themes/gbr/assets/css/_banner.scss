@@ -1,0 +1,6 @@
+#banner {
+        @media screen and (max-width: 350px) {
+        background-image: url(../gbr/assets/img/mobile.png)  !important;
+            background-size: cover;
+    }
+}

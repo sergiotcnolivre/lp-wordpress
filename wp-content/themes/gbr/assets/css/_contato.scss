@@ -1,0 +1,49 @@
+#contato {
+    z-index: 2;
+    position: relative;
+
+    img {
+        max-width: 100%;
+    }
+
+    &::before{
+            background: url(../gbr/assets/img/bg_contato.jpg) no-repeat center;
+            background-size: cover;
+            display: block;
+            content: "";
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            position: absolute;
+            z-index: -1;
+        
+    }
+
+    .container_form { 
+        max-width: 600px;
+        padding: 66px 32px 30px 60px;
+        margin: 0 auto;
+        background-color: rgba(237,107,6,0.85);
+        margin-bottom: 2rem;
+        border-radius: 9px;
+        box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.66);
+        input{
+            margin-bottom: .6rem;
+        }
+
+        input[type=submit] {
+            background-color: $verde;
+            color: #fff;
+            display: block;
+            margin: 3rem auto 0 auto;
+            width: 140px;
+            border-radius: 6px;
+            border: none;
+            text-transform: uppercase;
+            padding: 14px;
+            font-size: 20px;
+        }
+    }
+
+}

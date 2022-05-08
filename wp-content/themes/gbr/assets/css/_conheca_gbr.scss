@@ -1,0 +1,22 @@
+#gbr {
+    z-index: 2;
+    position: relative;
+
+    img {
+        max-width: 100%;
+    }
+
+    &::before{
+            background: url(../gbr/assets/img/lancamento_bg.jpg) no-repeat center;
+            background-size: cover;
+            display: block;
+            content: "";
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            position: absolute;
+            z-index: -1;
+        
+    }
+}

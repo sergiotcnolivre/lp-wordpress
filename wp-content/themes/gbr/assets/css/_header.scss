@@ -1,0 +1,78 @@
+.headerMenu {
+	background-color: $white;
+	position: sticky;
+	left: 0;
+	transition: 0.3s;
+	top: 0;
+	width: 100%;
+	z-index: 20;
+
+	a {
+		color: #fff;
+		text-decoration: none;
+		
+		&:hover {
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+	.contact{
+		background-color: $verde;
+		max-width: 100% !important;
+		width: 100% !important;
+
+		img {
+			width: 16px;
+
+			&:first-child {
+				margin: 0 1rem;
+			}
+		}
+	}
+}
+.navbar-brand {
+	img {
+		display: block;
+		width: 126px;
+	}
+
+	.img-topo-2{
+		display: block;
+		width: 92px;
+	}
+}
+.navbar-light {
+	.navbar-toggler {
+		border: 0;
+
+		&:hover,
+		&:focus,
+		&.active {
+			box-shadow: none;
+			outline: none;
+		}
+	}
+}
+
+.contact-top {
+	background-color: $verde;
+	color: #fff;
+	max-width: 1320px;
+
+	p {
+		color: #fff;
+		margin: 0;
+		padding: 10px 0;
+		font-weight: bold;
+	}
+}
+
+@media  screen and (max-width: 400px){
+    .cont-esqu{
+        padding: .8 !important;
+        margin-top: 3rem;
+    }
+	.cordis {
+		margin-right: 25px !important;
+	}
+}
