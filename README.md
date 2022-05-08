@@ -1,4 +1,4 @@
-# Landing Paga criada com WordPress
+# Landing Page criada com WordPress
 Landing Page Wordpress
 
 ## Ferramentas
